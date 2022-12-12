@@ -1,9 +1,29 @@
+.header {
+    padding-top: 15px;
+    padding-bottom: 21px;
+}
 .header-row {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .header-row-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.header-notification {
+
+.header-row-title p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 106%;
+    padding-right: 6px;
 }
-.header-profile {
+.notification {
+    padding-right: 11px;
 }
+
+/* .pink {
+    position: abosolute;
+} */
+
